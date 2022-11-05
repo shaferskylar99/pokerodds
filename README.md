@@ -14,7 +14,7 @@ The code in the first step takes around 2 minutes or less to run because the sco
 
 One thing that helped me in this project was being careful about how I defined the game. Poker is a game of 52 cards, and so if you know the 2 cards in your hand, and the 3 in the flop, there are 47 cards left that be the next possible card flipped, 46 for the 5th card flipped in the center, 45 for the first card in the opponent's hand and so on. This seems computationally small at first, but it gets incredibly large.
 
-Say you need to simulate 2 more cards (with 47 remaining at the start): There are 47/*46 = 2,162 possible hands. 
+Say you need to simulate 2 more cards (with 47 remaining at the start): There are 47*46 = 2,162 possible hands. 
 
 If you need 2 more cards in the middle and cards for one other player(with 47 again, so basically playing one other person): 4,280,760 possible hands.
 
