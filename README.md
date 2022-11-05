@@ -1,6 +1,6 @@
-## Texas Hold'Em - Odds of Winning Based on The Cards Visible
+# Texas Hold'Em - Odds of Winning Based on The Cards Visible
 
-# Introduction
+## Introduction
 
 Honestly, this project is pretty self explanatory. I think poker and the associated odds are pretty interesting, and so, given the amount of players and your cards (as well as the cards visible in the middle), I wanted to determine the odds of winning a game of poker with a certain hand. The code generates every possible outcome of the rest of the cards in the middle as well as the possible hands of the opposing players, and determines in which percentage of outcomes you win, to give your probability of victory.
 
@@ -10,7 +10,7 @@ You input the amount of players in, as well as your cards, and the three cards o
 
 The code in the first step takes around 2 minutes or less to run because the scope of possibilities is so large, then a couple seconds in the next step, and under a second for the third input. I understand this speed isn't necessarily ideal for use in a game, but that would likely be cheating anyway, so I spent time speeding up the code enough for it to be useful as a learning tool, but I didn't deem it necessary to speed it up beyond that (you can do so if you would like, obviously). Enjoy!
 
-# Project Tricks/Advantages/Limitations:
+## Project Tricks/Advantages/Limitations:
 
 One thing that helped me in this project was being careful about how I defined the game. Poker is a game of 52 cards, and so if you know the 2 cards in your hand, and the 3 in the flop, there are 47 cards left that be the next possible card flipped, 46 for the 5th card flipped in the center, 45 for the first card in the opponent's hand and so on. This seems computationally small at first, but it gets incredibly large.
 
@@ -32,6 +32,6 @@ Two other intricacies of my system are how it treats pot splits, and that it onl
 
 Another limitation is that it needs the first 3 cards in the middle (the flop), along with your hand. I felt I had to make it this way, otherwise timewise it would no longer be effective to simulate every hand, and I didn't have the time with school to deepdive any more into code speed.
 
-# Conclusion
+## Conclusion
 
 In conclusion, this project, I think, was a good example of a practical project exploring data and its possibilities. I had to make certain assumptions and practical systems that deviated from natural law in order to make my system efficient enough to be usable and useful. I know you can do Monte Carlo Simulations or other systems like that, but I wanted to relatively generate out every single hand because I thought it was an interesting task to undertake. This was a relatively quick side project, but I thought it was interesting in its outcomes, and I'm proud of how I found interesting solutions to combat a problem of such a large scale and explore it while still providing utility. I hope you enjoyed!
