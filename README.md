@@ -20,7 +20,7 @@ If you need 2 more cards in the middle and cards for one other player(with 47 ag
 
 If there are now only 3 other players each needing two cards, and you still need the last two in the center: 12,678,926,198,400 possible hands.
 
-That is an insane number! Due to the exponential nature of the problem, and the fact that I only had my cheap laptop available to run this code (and I couldn't wait for thousands of years for this code to run, which I vaguely it would have likely taken), I had to be smart about how I designed the game and how I ran the code.
+That is an insane number! Due to the exponential nature of the problem, and the fact that I only had my cheap laptop available to run this code (and I couldn't wait for thousands of years for this code to run, which I vaguely determined it would have likely taken), I had to be smart about how I designed the game and how I ran the code.
 
 First of all, I partitioned the game. Rather than treating the game as though I was playing all players at once, I subdivided the game into individual matchups against each player at the table. If I won each of these individual matchups, I won the game! So, rather than having to generate the hands of 3 other people every time (or more, as poker games often have more players than that), I could just generate every hand the other person could have in each 1v1 matchup, and predict the probability of me beating one person, and then take the probability that I beat that person, and also the next person, and so on. For example, if my win probability was .5 against each person and I was playing two people, then my overall win probability would be .25 as I'd have to beat both, and the probability of both of those events occuring is .5*.5=.25. 
 
