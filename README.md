@@ -1,6 +1,6 @@
 # Texas Hold'Em - Odds of Winning Based on The Cards Visible
 
-## Introduction
+## Introduction/Project Summary
 
 Honestly, this project is pretty self explanatory. I think poker and the associated odds are pretty interesting, and so, given the amount of players and your cards (as well as the cards visible in the middle), I wanted to determine the odds of winning a game of poker with a certain hand. The code generates every possible outcome of the rest of the cards in the middle as well as the possible hands of the opposing players, and determines in which percentage of outcomes you win, to give your probability of victory.
 
