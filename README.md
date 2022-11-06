@@ -1,4 +1,4 @@
-# Texas Hold'Em - Odds of Winning Based on The Cards Visible
+# Texas Hold'Em Odds - Modified Raw Sim vs. Monte Carlo Sim
 
 ## Introduction/Project Summary
 
