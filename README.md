@@ -10,6 +10,8 @@ You input the amount of players in, as well as your cards, and the three cards o
 
 The code in the first step takes around 2 minutes or less to run because the scope of possibilities is so large, then a couple seconds in the next step, and under a second for the third input. I understand this speed isn't necessarily ideal for use in a game, but that would likely be cheating anyway, so I spent time speeding up the code enough for it to be useful as a learning tool, but I didn't deem it necessary to speed it up beyond that (you can do so if you would like, obviously). Enjoy!
 
+### IMPORTANT NOTE ON INPUT: WHEN INPUTING CARDS, INPUT 2 AS 0, 10 AN AN 8, QUEEN AS A 10, ACE IS 12, AND SO ON. SO IT IS A SCALE WHICH STARTS AT 0. FOR SUITS, IT IS ARBITRARY, BUT I FIND THE FOLLOWING ORDERING HELPS: ['diamond','clubs','hearts','spades'] = [0,1,2,3]
+
 ## Project Tricks/Advantages/Limitations:
 
 One thing that helped me in this project was being careful about how I defined the game. Poker is a game of 52 cards, and so if you know the 2 cards in your hand, and the 3 in the flop, there are 47 cards left that be the next possible card flipped, 46 for the 5th card flipped in the center, 45 for the first card in the opponent's hand and so on. This seems computationally small at first, but it gets incredibly large.
