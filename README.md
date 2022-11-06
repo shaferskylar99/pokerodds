@@ -1,4 +1,4 @@
-# Texas Hold'Em Odds - Modified Raw Sim vs. Monte Carlo Sim
+# Texas Hold'Em Odds - Modified Raw Sim
 
 ## Introduction/Project Summary
 
