@@ -10,7 +10,7 @@ You input the amount of players in, as well as your cards, and the three cards o
 
 The code in the first step takes around 2 minutes or less to run because the scope of possibilities is so large, then a couple seconds in the next step, and under a second for the third input. I understand this speed isn't necessarily ideal for use in a game, but that would likely be cheating anyway, so I spent time speeding up the code enough for it to be useful as a learning tool, but I didn't deem it necessary to speed it up beyond that (you can do so if you would like, obviously). Enjoy!
 
-### IMPORTANT NOTE ON INPUT: WHEN INPUTING CARDS, INPUT 2 AS 0, 10 AN AN 8, QUEEN AS A 10, ACE IS 12, AND SO ON. SO IT IS A SCALE WHICH STARTS AT 0. FOR SUITS, IT IS ARBITRARY, BUT I FIND THE FOLLOWING ORDERING HELPS: ['diamond','clubs','hearts','spades'] = [0,1,2,3]
+### IMPORTANT NOTE ON INPUT: WHEN INPUTING CARDS, INPUT 2 AS 0, 10 AS AN 8, QUEEN AS A 10, ACE IS 12, AND SO ON. SO IT IS A SCALE WHICH STARTS AT 0. FOR SUITS, IT IS ARBITRARY, BUT I FIND THE FOLLOWING ORDERING HELPS: ['diamond','clubs','hearts','spades'] = [0,1,2,3] SO THE EIGHT OF CLUBS WOULD BE INPUT BY 6 FOR THE COUNT, THEN 1 FOR THE SUIT.
 
 ## Project Tricks/Advantages/Limitations:
 
